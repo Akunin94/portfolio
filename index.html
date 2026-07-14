@@ -553,12 +553,7 @@ createApp({
       {title:{en:'DevOps & Tools',ru:'DevOps'},items:['Git','GitHub Actions','Docker','CI/CD','Vercel','Agile / Scrum']},
     ];
 
-    const downloadCV = ()=>{
-      alert(lang.value==='ru'
-        ? 'Положи файл CV (PDF) рядом с index.html и назови его cv.pdf — кнопка откроет его.'
-        : 'Drop your CV PDF next to index.html named cv.pdf — this button will open it.');
-      window.open('cv.pdf','_blank');
-    };
+    const downloadCV = ()=>{ window.open('cv.pdf','_blank','noopener'); };
 
     // typing effect
     const roles = {
