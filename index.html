@@ -306,12 +306,12 @@ footer .mono{color:var(--muted)}
   <!-- HERO -->
   <header class="hero" id="top">
     <div class="wrap">
-      <div class="badge"><span class="pulse"></span>{{ t({en:'Available for EU / US remote roles',ru:'Открыт к EU / US remote-ролям'}) }}</div>
+      <div class="badge"><span class="pulse"></span>{{ t({en:'Open to EU / US — remote or relocation',ru:'Открыт к EU / US — remote или релокация'}) }}</div>
       <h1>{{ t({en:'Building interfaces that',ru:'Создаю интерфейсы,'}) }}<br/><span class="grad">{{ t({en:'ship at scale.',ru:'работающие в масштабе.'}) }}</span></h1>
       <div class="role mono">{{ typed }}<span class="cursor"></span></div>
       <p class="lead">{{ t({
-        en:'Senior Frontend Developer with 12+ years of experience, 6+ specializing in Vue.js. Currently at Route4Me (US), owning the Customers & Locations domains — mapping and territory tools powering daily route operations for thousands of logistics teams.',
-        ru:'Senior Frontend разработчик с 12+ годами опыта, из них 6+ на Vue.js. Сейчас в Route4Me (US), веду домены Customers & Locations — картографию и управление территориями для тысяч логистических команд.'
+        en:'Senior Frontend Developer with 12+ years of experience, 6+ specializing in Vue.js. At Route4Me (US) I own the Customers & Locations domains — mapping and territory tools used daily by thousands of logistics teams planning routes with 10,000+ stops.',
+        ru:'Senior Frontend разработчик с 12+ годами опыта, из них 6+ на Vue.js. В Route4Me (US) веду домены Customers & Locations — картография и управление территориями, которыми ежедневно пользуются тысячи логистических команд, планируя маршруты с 10 000+ точек.'
       }) }}</p>
       <div class="hero-cta">
         <a href="#experience" class="btn btn-primary">{{ t({en:'View Experience',ru:'Смотреть опыт'}) }} →</a>
@@ -344,21 +344,20 @@ footer .mono{color:var(--muted)}
       <div class="about-grid" style="margin-top:48px">
         <div class="about-text reveal">
           <p v-html="t({
-            en:'I lead the <b>Vue 2 → Vue 3 migration</b> of 40+ core components at Route4Me, introduced <b>composable architecture</b> across 5+ feature modules, and drove a <b>40% reduction in critical code-quality issues</b> over two quarters.',
-            ru:'Веду <b>миграцию Vue 2 → Vue 3</b> для 40+ ключевых компонентов в Route4Me, внедрил <b>composable-архитектуру</b> в 5+ модулях и добился <b>снижения критических проблем качества кода на 40%</b> за два квартала.'
+            en:'I lead the <b>Vue 2 → Vue 3 migration</b> of 40+ core components at Route4Me and introduced <b>composable architecture</b> across 5+ feature modules. On data-heavy screens I <b>cut the main bundle ~35%</b> and <b>improved LCP from ~4.2s to ~2.1s</b>, and drove a <b>40% reduction in critical code-quality issues</b> over two quarters.',
+            ru:'Веду <b>миграцию Vue 2 → Vue 3</b> для 40+ ключевых компонентов в Route4Me и внедрил <b>composable-архитектуру</b> в 5+ модулях. На data-heavy экранах <b>уменьшил основной бандл на ~35%</b> и <b>улучшил LCP с ~4.2с до ~2.1с</b>, а также добился <b>снижения критических проблем качества кода на 40%</b> за два квартала.'
           })"></p>
           <p v-html="t({
-            en:'Beyond the day job I actively build <b>AI-powered apps</b> — Claude API, SSE streaming, and RAG pipelines. <b>3 years proven remote</b> with a US company: a stable setup with no onboarding friction.',
-            ru:'Помимо основной работы активно строю <b>AI-приложения</b> — Claude API, SSE-стриминг, RAG-пайплайны. <b>3 года подтверждённого remote</b> с американской компанией: стабильный процесс без проблем с онбордингом.'
+            en:'I care about <b>accessibility (WCAG 2.1 AA)</b> and testing culture (Percy visual regression in CI). Beyond the day job I build <b>AI-powered apps</b> — Claude API, SSE streaming, and RAG pipelines. <b>3 years proven remote</b> with a US product team.',
+            ru:'Уделяю внимание <b>доступности (WCAG 2.1 AA)</b> и культуре тестирования (Percy visual regression в CI). Помимо работы строю <b>AI-приложения</b> — Claude API, SSE-стриминг, RAG-пайплайны. <b>3 года подтверждённого remote</b> с американской продуктовой командой.'
           })"></p>
         </div>
         <div class="about-card reveal d2">
           <h3>{{ t({en:'Quick facts',ru:'Кратко'}) }}</h3>
-          <div class="info-row"><span class="k">{{ t({en:'Location',ru:'Локация'}) }}</span><span class="v">Tashkent, UZ · UTC+5</span></div>
-          <div class="info-row"><span class="k">{{ t({en:'Overlap',ru:'Овэрлап'}) }}</span><span class="v">CET / EST</span></div>
-          <div class="info-row"><span class="k">{{ t({en:'Relocation',ru:'Релокация'}) }}</span><span class="v">{{ t({en:'Not needed',ru:'Не требуется'}) }}</span></div>
-          <div class="info-row"><span class="k">{{ t({en:'Availability',ru:'Доступность'}) }}</span><span class="v"><span class="ok">●</span> {{ t({en:'Remote FT / Contract',ru:'Remote FT / Контракт'}) }}</span></div>
-          <div class="info-row"><span class="k">{{ t({en:'English',ru:'Английский'}) }}</span><span class="v">B2 · Professional</span></div>
+          <div class="info-row"><span class="k">{{ t({en:'Relocation',ru:'Релокация'}) }}</span><span class="v"><span class="ok">●</span> {{ t({en:'Open to EU / US',ru:'Открыт к EU / US'}) }}</span></div>
+          <div class="info-row"><span class="k">{{ t({en:'Work format',ru:'Формат'}) }}</span><span class="v">{{ t({en:'Remote · Contract / Full-time',ru:'Remote · Контракт / Full-time'}) }}</span></div>
+          <div class="info-row"><span class="k">{{ t({en:'Timezone',ru:'Часовой пояс'}) }}</span><span class="v">{{ t({en:'Flexible · 3+ yrs CET/EST',ru:'Гибкий · 3+ года CET/EST'}) }}</span></div>
+          <div class="info-row"><span class="k">{{ t({en:'English',ru:'Английский'}) }}</span><span class="v">{{ t({en:'B2 · 3+ yrs daily',ru:'B2 · 3+ года ежедневно'}) }}</span></div>
           <div class="info-row"><span class="k">{{ t({en:'Languages',ru:'Языки'}) }}</span><span class="v">RU / UZ Native · EN B2</span></div>
         </div>
       </div>
@@ -488,72 +487,89 @@ createApp({
 
     const experience = [
       {role:{en:'Senior Frontend Developer',ru:'Senior Frontend Developer'},company:'Route4Me',date:'Sep 2023 — Present',
-       meta:{en:'Remote · Enterprise SaaS — Route Optimization & Logistics (San Diego, US)',ru:'Remote · Enterprise SaaS — маршрутизация и логистика (San Diego, US)'},
+       meta:{en:'Remote · Enterprise SaaS — Route Optimization & Logistics (US)',ru:'Remote · Enterprise SaaS — маршрутизация и логистика (US)'},
        points:[
-        {en:'Owned Vue 2 → Vue 3 migration for 40+ core components, eliminating runtime issues and reducing technical debt.',ru:'Провёл миграцию Vue 2 → Vue 3 для 40+ ключевых компонентов, устранив runtime-проблемы и техдолг.'},
-        {en:'Built territory management & customer assignment modules with Google Maps JS API, handling complex geospatial interactions at scale.',ru:'Построил модули управления территориями и назначения клиентов на Google Maps JS API со сложными geospatial-взаимодействиями.'},
-        {en:'Introduced composable architecture (Composition API) across 5+ modules, cutting average component size ~30%.',ru:'Внедрил composable-архитектуру (Composition API) в 5+ модулях, сократив размер компонентов ~30%.'},
-        {en:'Established Storybook design-system workflow, wrote Jest / Vue Test Utils tests, mentored 2 junior devs.',ru:'Настроил дизайн-систему на Storybook, писал тесты Jest / Vue Test Utils, менторил 2 джунов.'},
-        {en:'Integrated Pusher/WebSocket for real-time route updates; drove SonarQube quality, cutting critical issues 40%.',ru:'Интегрировал Pusher/WebSocket для real-time обновлений; поднял качество в SonarQube, снизив критические проблемы на 40%.'},
+        {en:'Own the Customers & Locations domains — mapping and territory-management features used daily by thousands of logistics teams planning routes with 10,000+ stops.',ru:'Веду домены Customers & Locations — картография и управление территориями, которыми ежедневно пользуются тысячи логистических команд, планируя маршруты с 10 000+ точек.'},
+        {en:'Led the Vue 2 → Vue 3 migration for 40+ core components, eliminating runtime compatibility issues and reducing technical debt.',ru:'Провёл миграцию Vue 2 → Vue 3 для 40+ ключевых компонентов, устранив проблемы совместимости и техдолг.'},
+        {en:'Optimized data-heavy screens (marker clustering, virtualized 10k-row tables, route-based code splitting, lazy-loaded map modules) — cut the main bundle ~35% and improved LCP from ~4.2s to ~2.1s; map-related support tickets dropped ~a third.',ru:'Оптимизировал data-heavy экраны (кластеризация маркеров, виртуализация таблиц на 10k+ строк, route-based code splitting, ленивая загрузка карт) — уменьшил основной бандл на ~35% и улучшил LCP с ~4.2с до ~2.1с; обращений в поддержку по картам стало ~на треть меньше.'},
+        {en:'Built and maintain territory-management and customer-assignment modules on Google Maps JS API, handling complex geospatial interactions at scale.',ru:'Построил и поддерживаю модули управления территориями и назначения клиентов на Google Maps JS API со сложными geospatial-взаимодействиями.'},
+        {en:'Introduced composable architecture (Composition API) across 5+ feature modules — average component size in refactored domains down by roughly a third.',ru:'Внедрил composable-архитектуру (Composition API) в 5+ модулях — средний размер компонентов в отрефакторенных доменах снизился примерно на треть.'},
+        {en:'Championed accessibility (WCAG 2.1 AA): keyboard navigation and ARIA patterns for complex map and table widgets, contrast audits in the design system.',ru:'Внедрял доступность (WCAG 2.1 AA): клавиатурная навигация и ARIA для сложных карт и таблиц, аудит контраста в дизайн-системе.'},
+        {en:'Established a testing culture: Jest + Vue Test Utils, Percy visual regression in GitHub Actions CI, mentored 2 juniors; drove SonarQube — critical issues down 40% over two quarters.',ru:'Выстроил культуру тестирования: Jest + Vue Test Utils, Percy visual regression в GitHub Actions CI, менторил 2 джунов; поднял SonarQube — критических проблем на 40% меньше за два квартала.'},
        ],
-       stack:['Vue 3','TypeScript','TailwindCSS','Vite','Pinia','Google Maps API','Storybook','Jest','Vitest','i18n']},
-      {role:{en:'Team Lead (Frontend)',ru:'Team Lead (Frontend)'},company:'Maxelium Games',date:'Feb 2023 — Aug 2023',
-       meta:{en:'Oslo, Norway (Remote)',ru:'Осло, Норвегия (Remote)'},
+       stack:['Vue 3','TypeScript','TailwindCSS','Vite','Pinia','Google Maps API','Storybook','Jest','Vue Test Utils','Vitest','i18n']},
+      {role:{en:'Senior Frontend Developer',ru:'Senior Frontend Developer'},company:'Maxelium Games',date:'Feb 2023 — Aug 2023',
+       meta:{en:'Remote (Oslo, Norway) · startup wound down after its investor withdrew funding',ru:'Remote (Осло, Норвегия) · стартап закрылся после выхода инвестора'},
        points:[
-        {en:'Led a 5-person frontend team: task distribution, code reviews, sprint planning and onboarding.',ru:'Руководил командой из 5 фронтендеров: распределение задач, ревью, спринт-планирование, онбординг.'},
-        {en:'Architected corporate marketplace and partner web apps with Vue / Nuxt.js and a Strapi CMS via GraphQL & REST.',ru:'Спроектировал marketplace и партнёрские веб-приложения на Vue / Nuxt.js со Strapi CMS через GraphQL и REST.'},
-        {en:'Integrated Web3 wallet features; wrote Jest coverage for critical flows.',ru:'Интегрировал Web3-кошелёк; покрыл критические потоки тестами Jest.'},
+        {en:'Architected and built a corporate marketplace and partner web apps with Vue.js / Nuxt.js and a Strapi CMS backend, consuming data via GraphQL and REST.',ru:'Спроектировал и построил корпоративный marketplace и партнёрские веб-приложения на Vue.js / Nuxt.js со Strapi CMS через GraphQL и REST.'},
+        {en:'Shipped SSR on Nuxt.js for SEO-critical pages, resolving hydration mismatches — ~2× faster First Contentful Paint vs the CSR baseline, SEO score 95+.',ru:'Внедрил SSR на Nuxt.js для SEO-критичных страниц, устранив hydration-рассинхроны — ~в 2 раза быстрее First Contentful Paint против CSR, SEO-скор 95+.'},
+        {en:'Designed the frontend architecture: typed API layer (TypeScript), clear module boundaries, and a shared Storybook UI kit reused across apps.',ru:'Спроектировал frontend-архитектуру: типизированный API-слой (TypeScript), чёткие границы модулей и общий Storybook UI-kit для обоих приложений.'},
+        {en:'Integrated Web3 wallet features (auth, transaction signing) with robust error and retry handling; wrote Jest coverage for critical purchase flows.',ru:'Интегрировал Web3-кошелёк (авторизация, подпись транзакций) с надёжной обработкой ошибок и ретраями; покрыл критичные flow покупок тестами Jest.'},
+        {en:'Worked directly with founders and designer in English: scoped features, estimated work, and demoed increments in weekly reviews.',ru:'Работал напрямую с фаундерами и дизайнером на английском: скоуп фич, оценки, демо инкрементов на еженедельных ревью.'},
        ],
        stack:['TypeScript','Vue.js','Nuxt.js','Strapi','GraphQL','PostgreSQL','Jest','Storybook']},
       {role:{en:'Senior Frontend Developer',ru:'Senior Frontend Developer'},company:'Zenclass',date:'Feb 2022 — Jan 2023',
-       meta:{en:'Online School Platform',ru:'Платформа онлайн-школы'},
+       meta:{en:'Online School Platform · project completed and delivered',ru:'Платформа онлайн-школы · проект завершён и сдан'},
        points:[
-        {en:'Delivered features and refactored legacy in a Laravel + Vue 2/3 monolith; introduced component-level testing.',ru:'Разрабатывал фичи и рефакторил legacy в монолите Laravel + Vue 2/3; ввёл компонентное тестирование.'},
-        {en:'Built responsive, cross-browser interfaces with consistent UX across devices and browsers.',ru:'Строил адаптивные кросс-браузерные интерфейсы с единым UX на всех устройствах.'},
+        {en:'Delivered new features and refactored legacy components in a Laravel + Vue 2/3 monolith; introduced component-level testing.',ru:'Разрабатывал фичи и рефакторил legacy в монолите Laravel + Vue 2/3; ввёл компонентное тестирование.'},
+        {en:'Drove incremental Vue 2 → Vue 3 adoption: extracted shared logic into composables and isolated legacy behind typed interfaces.',ru:'Провёл поэтапный переход Vue 2 → Vue 3: вынес общую логику в composables, изолировал legacy за типизированными интерфейсами.'},
+        {en:'Built student-facing learning flows (course player, quizzes, progress tracking) used daily by thousands of students.',ru:'Построил учебные flow для студентов (плеер курсов, тесты, прогресс), которыми ежедневно пользуются тысячи студентов.'},
+        {en:'Improved perceived performance of dashboards (code splitting, asset optimization) and ensured accessible, keyboard-navigable UI.',ru:'Улучшил ощущаемую производительность дашбордов (code splitting, оптимизация ассетов) и обеспечил доступный клавиатурный UI.'},
+        {en:'Partnered with Laravel backend on API contracts; maintained a Dockerized dev environment and a shared Storybook component library.',ru:'Согласовывал API-контракты с Laravel-бэкендом; поддерживал Docker-окружение и общую Storybook-библиотеку компонентов.'},
        ],
        stack:['Vue 2/3','Vuex','Laravel','Docker','PostgreSQL','Webpack','Storybook']},
-      {role:{en:'Middle Frontend Developer',ru:'Middle Frontend Developer'},company:'Lionsdigital.pro',date:'Aug 2021 — Feb 2022',
-       meta:{en:'Moscow, Russia',ru:'Москва, Россия'},
+      {role:{en:'Middle Frontend Developer',ru:'Middle Frontend Developer'},company:'Lionsdigital.pro',date:'Feb 2021 — Feb 2022',
+       meta:{en:'Moscow, Russia · EdTech',ru:'Москва, Россия · EdTech'},
        points:[
         {en:'Built a multilingual student notification system.',ru:'Построил мультиязычную систему уведомлений для студентов.'},
         {en:'Migrated authentication to OAuth 2.0.',ru:'Перевёл авторизацию на OAuth 2.0.'},
-        {en:'Launched a university schedule module serving 1000+ students.',ru:'Запустил модуль университетского расписания для 1000+ студентов.'},
+        {en:'Launched a university schedule module serving 1,000+ students daily.',ru:'Запустил модуль университетского расписания для 1000+ студентов в день.'},
+        {en:'Developed form-heavy admin and student interfaces on Vue 2 + TypeScript with complex validation (Element UI).',ru:'Разрабатывал насыщенные формами интерфейсы админки и студентов на Vue 2 + TypeScript со сложной валидацией (Element UI).'},
+        {en:'Wrote typed wrappers around the JSON RPC API layer, reducing runtime errors and simplifying refactoring.',ru:'Написал типизированные обёртки над JSON RPC API, снизив runtime-ошибки и упростив рефакторинг.'},
        ],
-       stack:['Vue 2','TypeScript','Vuex','JSON RPC','OAuth 2.0','Element UI']},
-      {role:{en:'Frontend Developer (HTML → Vue SPA)',ru:'Frontend Developer (HTML → Vue SPA)'},company:'Megagroup.ru',date:'Dec 2013 — Jul 2021 · 7y 8m',
-       meta:{en:'Fergana, Uzbekistan — grew from HTML/CSS to full Vue 2 SPA across 300+ production websites.',ru:'Фергана, Узбекистан — вырос от HTML/CSS до Vue 2 SPA на 300+ продакшн-сайтах.'},
+       stack:['Vue 2','React','TypeScript','Vuex','JSON RPC','OAuth 2.0','Element UI']},
+      {role:{en:'Middle Frontend Developer (Vue SPA)',ru:'Middle Frontend Developer (Vue SPA)'},company:'Megagroup.ru',date:'Jan 2020 — Jan 2021',
+       meta:{en:'Web solutions for SMB e-commerce',ru:'Веб-решения для SMB e-commerce'},
        points:[
-        {en:'Developed and maintained client-facing SPAs on Vue 2, refactoring legacy into reusable component architecture.',ru:'Разрабатывал и поддерживал клиентские SPA на Vue 2, рефакторил legacy в переиспользуемую архитектуру.'},
-        {en:'Integrated Google & Yandex Maps for logistics/taxi clients: custom routing, geocoding, geolocation.',ru:'Интегрировал Google и Yandex Maps для логистики/такси: кастомный роутинг, геокодинг, геолокация.'},
-        {en:'Built pixel-perfect adaptive HTML/CSS, interactive calculators and complex custom forms.',ru:'Верстал pixel-perfect адаптивный HTML/CSS, интерактивные калькуляторы и сложные формы.'},
+        {en:'Developed and maintained client-facing SPAs on Vue 2 and React, refactoring legacy pages into a modern, reusable component architecture.',ru:'Разрабатывал и поддерживал клиентские SPA на Vue 2 и React, рефакторил legacy в современную переиспользуемую архитектуру.'},
+        {en:'Integrated Google Maps and Yandex Maps for logistics, freight, and taxi clients — custom routing, geocoding, and geolocation.',ru:'Интегрировал Google Maps и Yandex Maps для логистики, грузоперевозок и такси — кастомный роутинг, геокодинг, геолокация.'},
        ],
-       stack:['Vue 2','Vuex','Nuxt.js','SCSS','JavaScript','jQuery','PHP/Smarty','Ajax']},
+       stack:['Vue 2','Vuex','Vue Router','Nuxt.js','React','JavaScript','SCSS']},
+      {role:{en:'Web / HTML Developer',ru:'Web / HTML Developer'},company:'Megagroup.ru',date:'Dec 2013 — Dec 2019 · 6y',
+       meta:{en:'Progressed from static HTML/CSS layouts to complex interactive JS apps across 300+ delivered client projects.',ru:'Вырос от статической HTML/CSS-вёрстки до сложных интерактивных JS-приложений на 300+ сданных клиентских проектах.'},
+       points:[
+        {en:'Built websites, landing pages and online stores, collaborating with backend developers to ship production features.',ru:'Делал сайты, лендинги и интернет-магазины, работая с бэкенд-разработчиками над продакшн-фичами.'},
+        {en:'Created interactive calculators, form constructors and complex custom forms with pixel-perfect adaptive markup.',ru:'Создавал интерактивные калькуляторы, конструкторы форм и сложные кастомные формы с pixel-perfect адаптивной вёрсткой.'},
+       ],
+       stack:['JavaScript','HTML5','CSS3','jQuery','PHP','Smarty','Ajax']},
     ];
 
     const projects = [
-      {name:'DevJobTracker',icon:'📋',url:'https://dev-job-tracker.vercel.app',when:{en:'Mar 2026 — Present · Personal',ru:'Мар 2026 — н.в. · Личный'},
+      {name:'DevJobTracker',icon:'📋',url:'https://dev-job-tracker.vercel.app',when:{en:'Mar 2026 — Apr 2026 · Personal',ru:'Мар 2026 — Апр 2026 · Личный'},
        desc:{en:'Production Kanban job-search tracker: 5-column pipeline, drag-and-drop with optimistic updates & rollback, GitHub OAuth via Supabase Auth with Row-Level Security, and real-time sync via postgres_changes.',ru:'Продакшн Kanban-трекер поиска работы: 5-колоночный пайплайн, drag-and-drop с оптимистичными апдейтами и откатом, GitHub OAuth через Supabase Auth с Row-Level Security, real-time-синхронизация через postgres_changes.'},
-       stack:['Nuxt 3','Vue 3','TypeScript','Pinia','Supabase','TailwindCSS','Vitest']},
+       stack:['Nuxt 3','TypeScript','Pinia','Supabase','TailwindCSS','Vitest','Vercel']},
       {name:'Route Planner AI',icon:'🗺️',url:'https://route-ai-nine.vercel.app',when:{en:'Aug 2025 — Present · Personal',ru:'Авг 2025 — н.в. · Личный'},
        desc:{en:'Multi-stop route planner with a Claude-powered AI assistant giving real-time optimization suggestions via SSE streaming. Places Autocomplete, drag-and-drop waypoints, shareable URL state, <2s load via code splitting.',ru:'Планировщик маршрутов с AI-ассистентом на Claude, дающим real-time оптимизацию через SSE-стриминг. Places Autocomplete, drag-and-drop точек, состояние в URL, загрузка <2с через code splitting.'},
        stack:['Vue 3.5','TypeScript','Vuetify 3','Pinia','Vite 6','Google Maps API','Claude API']},
       {name:'AI Assistant Platform',icon:'🤖',url:'https://ai-front-puce.vercel.app',when:{en:'Aug 2025 — Feb 2026 · Personal',ru:'Авг 2025 — Фев 2026 · Личный'},
-       desc:{en:'End-to-end AI assistant with SSE streaming, a RAG pipeline for document understanding, and structured code review — built on LangChain, Claude API and HNSWlib vector search.',ru:'End-to-end AI-ассистент с SSE-стримингом, RAG-пайплайном для понимания документов и структурированным код-ревью — на LangChain, Claude API и векторном поиске HNSWlib.'},
-       stack:['Vue 3','TypeScript','Express','LangChain','Claude API','HNSWlib','OpenAI Embeddings']},
+       desc:{en:'End-to-end AI assistant with SSE streaming and structured code review. Implemented the full RAG pipeline: document chunking, OpenAI embeddings and HNSWLib vector search via LangChain.',ru:'End-to-end AI-ассистент с SSE-стримингом и структурированным код-ревью. Реализовал полный RAG-пайплайн: чанкинг документов, OpenAI-эмбеддинги и векторный поиск HNSWLib через LangChain.'},
+       stack:['Vue 3','TypeScript','Express','LangChain','Claude API','HNSWLib','OpenAI Embeddings']},
     ];
 
     const skills = [
-      {title:{en:'Frontend',ru:'Frontend'},items:['Vue 2/3','Composition API','Vuex','Pinia','Nuxt.js','React (2y)']},
+      {title:{en:'Frontend',ru:'Frontend'},items:['Vue 2/3','Composition API','Nuxt.js (SSR)','Pinia','Vuex','React (2y)']},
       {title:{en:'Languages',ru:'Языки'},items:['TypeScript (5y+)','JavaScript ES6+','HTML5','CSS3 / SCSS']},
+      {title:{en:'Performance',ru:'Производительность'},items:['Core Web Vitals','Code splitting','Lazy loading','List virtualization','Bundle analysis','Lighthouse']},
       {title:{en:'Build Tools',ru:'Сборка'},items:['Vite','Webpack','pnpm']},
       {title:{en:'UI Libraries',ru:'UI-библиотеки'},items:['TailwindCSS','Vuetify','Element UI']},
       {title:{en:'Backend / DB',ru:'Backend / БД'},items:['Supabase','PostgreSQL','Express','Node.js']},
       {title:{en:'APIs',ru:'API'},items:['Google Maps JS','Claude API','GraphQL','Pusher / WebSocket','REST','JSON RPC']},
       {title:{en:'Testing & QA',ru:'Тестирование'},items:['Jest','Vitest','Vue Test Utils','Percy','SonarQube','Storybook']},
+      {title:{en:'i18n & a11y',ru:'i18n & a11y'},items:['Localization','WCAG 2.1 AA','Responsive','Cross-browser']},
       {title:{en:'DevOps & Tools',ru:'DevOps'},items:['Git','GitHub Actions','Docker','CI/CD','Vercel','Agile / Scrum']},
     ];
 
-    const downloadCV = ()=>{ window.open('cv.pdf','_blank','noopener'); };
+    const downloadCV = ()=>{ window.open('Usmonov_Davron_Senior_Frontend_Developer_CV_4_5.pdf','_blank','noopener'); };
 
     // typing effect
     const roles = {
